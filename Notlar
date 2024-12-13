@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//değişken değiştirilmesin diye başına const yazdık
 const int N = 5;
 int main(void) 
 {
