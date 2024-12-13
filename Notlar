@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+const int N = 5;
+int main(void) 
+{
+
+    int notlar[N];
+    int toplam = 0;
+    
+    for (int i = 0; i < N;i++)
+    {
+        printf("not %d:", i + 1);
+        scanf("%d",&notlar[i]);
+
+            
+    }
+        
+    for(int i = 0; i < N ; i++)
+    {
+        toplam += notlar[i];
+
+        
+    }
+
+    printf("Ortalama: %.2f\n", toplam/ (float) n );
+
+
+    
+}
